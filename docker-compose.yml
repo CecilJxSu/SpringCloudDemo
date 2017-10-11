@@ -1,0 +1,9 @@
+version: "2"
+services:
+  rabbitmq:
+    image: rabbitmq
+    ports:
+      - 5672:5672
+    environment:
+      RABBITMQ_DEFAULT_USER: rabbitmq       # 用户名
+      RABBITMQ_DEFAULT_PASS: rabbitmq_pass  # 密码

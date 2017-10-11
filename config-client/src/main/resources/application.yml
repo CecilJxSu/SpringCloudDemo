@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: rabbitmq
+    password: rabbitmq_pass
+  cloud:
+    bus:
+      trace:
+        enabled: true
+management:
+  security:
+    enabled: false
