@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>client</artifactId>
+	<artifactId>miya</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>client</name>
-	<description>client</description>
+	<name>miya</name>
+	<description>miya</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
